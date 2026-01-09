@@ -2,7 +2,7 @@
 
 A modern, responsive redesign of the Get-Ryze.ai website built with React, TypeScript, and Vite.
 
-## 🚀 Features
+##  Features
 
 - **Modern Design**: Clean, professional UI with modern gradients and animations
 - **Fully Responsive**: Mobile-first design that works on all devices
@@ -11,28 +11,8 @@ A modern, responsive redesign of the Get-Ryze.ai website built with React, TypeS
 - **Accessible**: Built with accessibility best practices
 - **Fast Performance**: Optimized with Vite for lightning-fast builds
 
-## 📁 Project Structure
 
-```
-src/
-├── components/          # Reusable UI components
-│   ├── Header/         # Navigation header
-│   ├── Hero/           # Hero section
-│   ├── Features/       # Features showcase
-│   ├── Testimonials/   # Customer testimonials
-│   ├── Pricing/        # Pricing plans
-│   ├── CTA/            # Call-to-action section
-│   └── Footer/         # Site footer
-├── pages/              # Page components
-│   ├── Home.tsx        # Homepage
-│   ├── Features.tsx    # Features page
-│   └── About.tsx       # About page
-├── App.tsx             # Main app component with routing
-├── main.tsx            # Entry point
-└── index.css           # Global styles
-```
-
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **React 18** - UI library
 - **TypeScript** - Type safety
@@ -40,7 +20,7 @@ src/
 - **React Router** - Client-side routing
 - **CSS3** - Styling with CSS variables
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -60,37 +40,13 @@ npm run dev
 
 4. Open your browser and navigate to `http://localhost:5173`
 
-## 🏗️ Build for Production
+## Build for Production
 
 ```bash
 npm run build
 ```
 
 The production build will be in the `dist` directory.
-
-## 🚢 Deployment
-
-### Vercel
-
-1. Push your code to GitHub
-2. Import your repository in Vercel
-3. Vercel will automatically detect Vite and configure the build settings
-4. Deploy!
-
-### Netlify
-
-1. Push your code to GitHub
-2. In Netlify, create a new site from Git
-3. Build command: `npm run build`
-4. Publish directory: `dist`
-5. Deploy!
-
-## 🎨 Design Decisions
-
-### Color Scheme
-- **Primary Color**: Indigo (#6366f1) - Represents trust, professionalism, and technology
-- **Secondary Color**: Green (#10b981) - Represents growth and success
-- **Neutral Colors**: Gray scale for text and backgrounds
 
 ### Typography
 - System font stack for optimal performance and cross-platform consistency
@@ -113,13 +69,11 @@ The production build will be in the `dist` directory.
 - Color contrast compliance
 - Focus states for interactive elements
 
-## 📱 Pages
+## Pages
 
 1. **Homepage** (`/`) - Main landing page with all sections
 2. **Features** (`/features`) - Detailed features page
 3. **About** (`/about`) - Company information and values
-
-## 🔧 Customization
 
 ### Colors
 Edit CSS variables in `src/index.css`:
@@ -135,15 +89,7 @@ Edit CSS variables in `src/index.css`:
 - Update component content in respective `.tsx` files
 - Modify data arrays in components (features, testimonials, pricing)
 
-## 📄 License
-
-This project is created for the Ryze internship assignment.
-
-## 👤 Author
-
 Created as part of the Ryze internship application process.
-
----
 
 **Note**: This is a redesign project. All content and branding are for demonstration purposes.
 
